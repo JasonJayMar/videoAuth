@@ -1,0 +1,94 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-image: url("https://orig00.deviantart.net/6cf7/f/2010/057/c/4/blue_space_nebula_by_bull53y3.jpg");
+}
+#header{
+  color: white;
+}
+p{
+  color: white;
+}
+h1{
+  color: white;
+}
+label{
+  color: white;
+}
+.container .jumbotron{
+  background-image: url("https://coubsecure-s.akamaihd.net/get/b1/p/coub/simple/cw_timeline_pic/eb66a3d7d30/22b5c07c20e13a1b05c80/big_1469598574_image.jpg");
+}
+.btn-default {
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+#slidIn{
+  animation-duration:9s;
+  color: white;
+  animation-name: slidein;
+  font-size: 20px;
+  width: 100%;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 10%;
+    width: 40%;
+  }
+
+  to {
+    margin-left: 50%;
+    width: 50%;
+  }
+}
+.btn-warning {
+  color: wheat;
+  background-color: darkcyan;
+  border-color: wheat;
+}
+img{
+  height: 200px;
+}
+
+
+/*----- Login Page -----*/
+
+#loginPage{
+  background-image: url("https://i.ytimg.com/vi/DLGyOGbr2bI/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#loginLogo{
+  color: black;
+}
+#P{
+  color: black;
+}
+#E{
+  color: black;
+}
+#logN{
+  color: black;
+}
+#logH{
+  color: black;
+}
+
+/*----- Sign Up Page -----  */
+#signUpPage{
+  background-image: url("https://coubsecure-s.akamaihd.net/get/b171/p/coub/simple/cw_timeline_pic/e0f820f8303/d89314e5b0f5b42c66bf4/big_1496281160_image.jpg");
+}
+
+/*----- Profile Page ------ */
+
+#profile{
+  background-image: url("https://coubsecure-s.akamaihd.net/get/b187/p/coub/simple/cw_timeline_pic/c3a51b55bb3/8650b41e46a4efc50a5ba/big_1498845281_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.well{
+  background-color: darkgrey;
+}
